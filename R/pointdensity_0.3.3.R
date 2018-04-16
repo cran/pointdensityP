@@ -112,14 +112,14 @@ pointdensity <- function(df, lat_col, lon_col, date_col = NULL, grid_size, radiu
   radius <- rad_steps  			## assign to original variable
   
   #round all latitude data to nearest grid
-  lat_data <- df$lat
+  lat_data <- df[,lat_col]
   lat <- lat_data * (1/grid_size)
   lat <- round(lat, 0)
   lat <- lat * (grid_size)
   lat <- round(lat,3)
   
   #round all longitude data to nearest grid
-  lon_data <- df$lon
+  lon_data <- df[,lon_col]
   lon <- lon_data * (1/grid_size)
   lon <- round(lon, 0)
   lon <- lon * (grid_size)

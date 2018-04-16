@@ -1,6 +1,6 @@
 Package: pointdensityP
 Title: Point Density for Geospatial Data
-Version: 0.3.2
+Version: 0.3.3
 Author: "Paul Evangelista <paul.evangelista@usma.edu> and Dave Beskow
     <david.beskow@usma.edu>"
 Maintainer: Paul Evangelista <paul.evangelista@usma.edu>
@@ -18,6 +18,6 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-01-13 15:01:06 UTC; Paul.Evangelista
+Packaged: 2018-04-16 15:30:37 UTC; Paul.Evangelista
 Repository: CRAN
-Date/Publication: 2018-01-13 17:13:17 UTC
+Date/Publication: 2018-04-16 20:59:24 UTC
