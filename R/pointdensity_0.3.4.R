@@ -65,7 +65,7 @@ pointdensity <- function(df, lat_col, lon_col, date_col = NULL, grid_size, radiu
     lat.vec <- seq(lati - radius * grid_size, lati + radius * grid_size, grid_size)
     
     #lat.vec.t is the tolerance vector, indicating whether or not a certain lat/lon is within radius
-    lat.vec.t <- sqrt(round(((radius * grid_size)^2 - (lat.vec - lati)^2), 8))
+    lat.vec.t <- acos(cos(radius*grid_size)/cos(lat.vec - lati))
     lat.vec.t <- lat.vec.t/cos(lat.vec * 2 * pi/360)
     lat.vec.t <- round(lat.vec.t/grid_size,0)*grid_size
     

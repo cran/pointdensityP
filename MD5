@@ -1,7 +1,7 @@
-13b0e04ff9e0ff902491baa60f2c50aa *DESCRIPTION
+e17786b0b986beef7f5ca3fcdbcd3369 *DESCRIPTION
 e780d7cfc179110a726bdb7ff6072e89 *LICENSE
 a18a5d2579af861c0d307541cad560d7 *NAMESPACE
-ba09e8f6801ceaa056b0b06f28e535bd *R/pointdensity_0.3.3.R
+e8dd1d039dc742d9fbb3c01614ee60d8 *R/pointdensity_0.3.4.R
 3aec15174fa22456757e987ce3424c15 *data/Arigon.rda
 7e66055cc05e6aaa5fae22b5ed7642a0 *data/clean_crime.rda
 017192ae4f8b73c4f8dbcbae800c7f88 *data/datalist
