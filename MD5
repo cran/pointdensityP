@@ -1,10 +1,10 @@
-e17786b0b986beef7f5ca3fcdbcd3369 *DESCRIPTION
+2232e89ba873bfce992481605c1dca82 *DESCRIPTION
 e780d7cfc179110a726bdb7ff6072e89 *LICENSE
-a18a5d2579af861c0d307541cad560d7 *NAMESPACE
-e8dd1d039dc742d9fbb3c01614ee60d8 *R/pointdensity_0.3.4.R
+2a8e35ad2f67075877129fcad0a86f39 *NAMESPACE
+442632f357bfc5014abee0fbc18da2bc *R/pointdensity_0.3.5.R
 3aec15174fa22456757e987ce3424c15 *data/Arigon.rda
 7e66055cc05e6aaa5fae22b5ed7642a0 *data/clean_crime.rda
 017192ae4f8b73c4f8dbcbae800c7f88 *data/datalist
-aefe2042e335ba0c463a204bf2c109b7 *man/Arigon.Rd
-4a00d5a09ae361c6207bf1923554dc79 *man/clean_crime.Rd
-f2d7b4a247a772034588819c7142ddb2 *man/pointdensity.Rd
+776d67aaa5ee89edfd3a754d6688a252 *man/Arigon.Rd
+ac8991589b10ad0fdb8e07f6ffc1a8ee *man/clean_crime.Rd
+e0f96b2a3838c847e2927084177f02e9 *man/pointdensity.Rd

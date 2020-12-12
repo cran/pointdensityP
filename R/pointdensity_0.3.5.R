@@ -112,14 +112,14 @@ pointdensity <- function(df, lat_col, lon_col, date_col = NULL, grid_size, radiu
   radius <- rad_steps  			## assign to original variable
   
   #round all latitude data to nearest grid
-  lat_data <- df[,lat_col]
+  lat_data <- unlist(df[,lat_col])
   lat <- lat_data * (1/grid_size)
   lat <- round(lat, 0)
   lat <- lat * (grid_size)
   lat <- round(lat,3)
   
   #round all longitude data to nearest grid
-  lon_data <- df[,lon_col]
+  lon_data <- unlist(df[,lon_col])
   lon <- lon_data * (1/grid_size)
   lon <- round(lon, 0)
   lon <- lon * (grid_size)
@@ -149,7 +149,7 @@ pointdensity <- function(df, lat_col, lon_col, date_col = NULL, grid_size, radiu
   total_measures <- length(yy$lat_c)*(2*radius +1)*(2*radius +1)
   cat("There are ", length(yy$lat_c)," unique grids that require ", total_measures, " measurements...\n\n")
   
-  pb <- txtProgressBar(title="point density calculation progress", label="0% done", min=0, max=100, initial=0, style = 3)
+  pb <- utils::txtProgressBar(title="point density calculation progress", label="0% done", min=0, max=100, initial=0, style = 3)
   
   inventory.mat <- matrix(nrow = 1E6, ncol = 4)	
   inventory = 0
@@ -162,7 +162,7 @@ pointdensity <- function(df, lat_col, lon_col, date_col = NULL, grid_size, radiu
     temp_inventory <- temp_inventory +1
     if(temp_inventory == 100){
       info <- sprintf("%d%% done", round((i/length(yy$lat_c))*100)) 
-      setTxtProgressBar(pb, i/(length(yy$lat_c))*100, label=info)
+      utils::setTxtProgressBar(pb, i/(length(yy$lat_c))*100, label=info)
       temp_inventory = 0
     }
     if(inventory > 1E6){

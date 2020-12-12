@@ -1,9 +1,9 @@
 Package: pointdensityP
 Title: Point Density for Geospatial Data
-Version: 0.3.4
-Author: "Paul Evangelista <paul.evangelista@usma.edu> and Dave Beskow
-    <david.beskow@usma.edu>"
-Maintainer: Paul Evangelista <paul.evangelista@usma.edu>
+Version: 0.3.5
+Author: "Paul Evangelista <paul.evangelista@westpoint.edu> and Dave Beskow
+    <david.beskow@westpoint.edu>"
+Maintainer: Paul Evangelista <paul.evangelista@westpoint.edu>
 Description: The function pointdensity returns a density count and the temporal average for
     every point in the original list. The dataframe returned includes four
     columns: lat, lon, count, and date_avg. The "lat" column is the original
@@ -16,8 +16,8 @@ Imports: data.table, utils
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.0
 NeedsCompilation: no
-Packaged: 2018-07-04 15:58:40 UTC; Paul.Evangelista
+Packaged: 2020-12-12 16:16:56 UTC; paul.evangelista
 Repository: CRAN
-Date/Publication: 2018-07-04 16:20:03 UTC
+Date/Publication: 2020-12-13 00:00:03 UTC
